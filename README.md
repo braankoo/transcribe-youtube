@@ -4,9 +4,7 @@
 
 <p>Next, add the service provider to your <code>config/app.php</code> file:</p>
 
-<code>
-'providers' => [Branko\Transcriby\Providers\TranscribyServiceProvider::class]
-</code>
+<code>'providers' => [Branko\Transcriby\Providers\TranscribyServiceProvider::class]</code>
 
 <p>You can also add the facade to your <code>config/app.php</code> file:</p>
 
@@ -28,6 +26,7 @@
 
 <p>You can configure Transcriby by editing the <code>config/transcriby.php</code> file that was published to your application's config directory.</p>
 
+<b>You need to install ffmpeg</b>
 <h2>License</h2>
 
 <p>Transcriby is open-sourced software licensed under the MIT license.</p>
