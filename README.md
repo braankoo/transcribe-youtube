@@ -2,11 +2,7 @@
 <p>To install Transcriby, simply require the package using Composer:</p>
 <code>composer require branko/transcriby</code>
 
-<p>Next, add the service provider to your <code>config/app.php</code> file:</p>
-
-<code>'providers' => [Branko\Transcriby\Providers\TranscribyServiceProvider::class]</code>
-
-<p>You can also add the facade to your <code>config/app.php</code> file:</p>
+<p>You can add the facade to your <code>config/app.php</code> file:</p>
 
 <code>'aliases' => ['Transcriby' => Branko\Transcriby\Facade\Transcriby::class]</code>
 
