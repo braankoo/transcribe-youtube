@@ -2,7 +2,8 @@
     "name": "branko/transcriby",
     "description": "Transcribe youtube videos",
     "type": "library",
-    "license": "GNU General Public License (GPL)",
+    "keywords": ["php", "openai", "transcribe video", "youtube", "youtube ai", "youtube transcrib e"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Branko Dragovic",
