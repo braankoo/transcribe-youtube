@@ -21,9 +21,8 @@ class SendToOpenAI
 
         $data = new UploadedFile(Storage::disk('local')->path($file), $file);
         $response = $this->postRequest($data, $file);
-
+        Storage::disk('local')->delete($file);
         if ($response->ok()) {
-            Storage::disk('local')->delete($file);
             return $next($response['text']);
         } else {
             Log::error($response->json());
