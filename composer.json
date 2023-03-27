@@ -1,0 +1,38 @@
+{
+    "name": "branko/transcriby",
+    "description": "Transcribe youtube videos",
+    "type": "library",
+    "license": "GNU General Public License (GPL)",
+    "authors": [
+        {
+            "name": "Branko Dragovic",
+            "email": "braankoo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Transcriby\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2",
+        "athlon1600/youtube-downloader": "^3.1",
+        "pbmedia/laravel-ffmpeg": "^8.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Transcriby\\Providers\\TranscribyServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
