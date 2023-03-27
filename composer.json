@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Transcriby\\": "src/"
+            "Branko\\Transcriby\\": "src/"
         }
     },
     "require": {
