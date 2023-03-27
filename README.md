@@ -5,16 +5,12 @@
 <p>Next, add the service provider to your <code>config/app.php</code> file:</p>
 
 <code>
-'providers' => [
-        Branko\Transcriby\Providers\TranscribyServiceProvider::class
-]
+'providers' => [Branko\Transcriby\Providers\TranscribyServiceProvider::class]
 </code>
 
 <p>You can also add the facade to your <code>config/app.php</code> file:</p>
 
-<code>
-'aliases' => ['Transcriby' => Branko\Transcriby\Facade\Transcriby::class],
-</code>
+<code>'aliases' => ['Transcriby' => Branko\Transcriby\Facade\Transcriby::class]</code>
 
 <p>Finally, publish the package configuration file using Artisan:</p>
 
