@@ -5,9 +5,9 @@
 <p>Next, add the service provider to your <code>config/app.php</code> file:</p>
 
 <code>
-    'providers' => [
+'providers' => [
         Branko\Transcriby\Providers\TranscribyServiceProvider::class
-    ]
+]
 </code>
 
 <p>You can also add the facade to your <code>config/app.php</code> file:</p>
